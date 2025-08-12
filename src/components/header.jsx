@@ -20,7 +20,7 @@ export const Header = () => {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-gray-500 text-white shadow">
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
-        <img src={logo} alt="" className="h-18 w-26 mr-2" />
+        <img src={logo} alt="" className="h-18 w-23 mr-2" />
 
         {/* Hamburger Button */}
         <div className="md:hidden">
