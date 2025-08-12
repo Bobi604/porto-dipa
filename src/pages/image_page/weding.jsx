@@ -29,12 +29,17 @@ export const Wedding = () => {
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
         {/* Text Section */}
         <div>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Wedding</h2>
-          <p className="text-gray-700 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-shadow-lg/12">
+            Wedding
+          </h2>
+          <p className="text-gray-700 mb-4 text-shadow-lg/8">
             Captures genuine emotions, timeless moments, and the unique beauty
             of each couple’s love story. Using a blend of candid storytelling
             and artistic portraiture, I create images that feel authentic,
-            romantic, and full of heart.
+            romantic, and full of heart—so each photograph becomes a piece of
+            your wedding day you can relive forever. From the quiet, intimate
+            glances to the grand celebrations, every frame is thoughtfully
+            composed to preserve memories that will be cherished for a lifetime.
           </p>
         </div>
 
