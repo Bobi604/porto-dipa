@@ -53,16 +53,8 @@ export const Cv = () => {
               <span>Illustrator</span>
             </div>
             <div className="flex items-center space-x-2">
-              <span className="bg-gray-200 px-2 py-1 rounded">Figma</span>
-              <span>Figma</span>
-            </div>
-            <div className="flex items-center space-x-2">
               <span className="bg-gray-200 px-2 py-1 rounded">Ae</span>
               <span>After Effect</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <span className="bg-gray-200 px-2 py-1 rounded">Cv</span>
-              <span>Canva</span>
             </div>
             <div className="flex items-center space-x-2">
               <span className="bg-gray-200 px-2 py-1 rounded">Cc</span>

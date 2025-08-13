@@ -12,9 +12,18 @@ export const Contact = () => {
           href="https://wa.me/6283116168276"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition shadow-lg/18 text-shadow-lg/8"
+          className="inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition shadow-lg/18 text-shadow-lg/8 mr-4"
         >
           WhatsApp
+        </a>
+
+        <a
+          href="https://drive.google.com/drive/folders/1JYFMwXU3__-O7r0DvyxZHnWzQqq3i6MH"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition shadow-lg/18 text-shadow-lg/8"
+        >
+          More Contents
         </a>
       </section>
     </>
