@@ -9,6 +9,7 @@ import { Design } from "./image_page/design";
 import { Wedding } from "./image_page/weding";
 import { Contemporer } from "./image_page/contemporer";
 import { Product } from "./image_page/product";
+import bgVideo from "../assets/video/recap.mp4";
 
 export const Home = () => {
   return (
@@ -18,12 +19,20 @@ export const Home = () => {
         id="home"
         className="relative w-full h-screen overflow-hidden flex items-center justify-center text-center scroll-smooth"
       >
+        {/* Background Video */}
+        <video
+          className="absolute top-0 left-0 w-full h-full object-cover"
+          src={bgVideo}
+          autoPlay
+          loop
+          muted
+          playsInline
+        />
         {/* Overlay agar teks tetap terbaca */}
         <div className="absolute top-0 left-0 w-full h-full bg-black/50"></div>
 
         {/* Content */}
         <div className="relative z-10 px-6">
-          
           <h1 className="text-5xl md:text-8xl font-bold mb-5 text-white text-shadow-lg/30">
             PORTFOLIO
           </h1>
